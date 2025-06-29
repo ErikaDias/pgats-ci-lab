@@ -24,7 +24,7 @@ jobs:
       # instalação do Node.js
       - uses: actions/setup-node@v4
         with:
-          node-version: latest
+          node-version: '20'
 
       # instalação do yarn
       - name: Instalando Yarn
